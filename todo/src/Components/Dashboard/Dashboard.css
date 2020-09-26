@@ -1,0 +1,43 @@
+.dashboard{
+  width: 90%;
+  
+  margin: 40px auto 0 auto;
+  background: rgb(250, 238, 216);
+  border-radius: 10px;
+  box-shadow: 8px 8px 13px #b63a3c;
+  
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 15px;
+}
+.newButton{
+  border-radius: 4px;
+  background-color: #fc4f52;
+  color: aliceblue;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgb(150, 135, 109) ;
+  transition: 0.3s;
+}
+.newButton:hover{
+  background-color: #ff0408;
+  transform: scale(1.1);
+}
+.inputDashboard{
+  border: none;
+  border-bottom: 1px solid rgb(187, 163, 118);
+  background-color: rgb(250, 238, 216);
+  width: 200px;
+  outline: none;
+  text-transform: uppercase;
+  flex-grow:2;
+  text-align: center;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
